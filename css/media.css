@@ -38,7 +38,8 @@
         gap: 30px;
         position: fixed;
         left: 0;
-        top: -100%;
+        top: 0;
+        transform: translateY(-100%);
         background: rgba(0, 0, 0, 0.487);
         min-height: 100vh;
         width: 100%;
@@ -63,7 +64,7 @@
         width: 100%;
     }
     .burger:hover ~ .header-nav-list{
-        top: 0;
+        transform: translateY(0);
     }
     .course-content{
         justify-content: center;
